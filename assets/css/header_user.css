@@ -1,0 +1,29 @@
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.submenu{
+	position: absolute;
+	background: #333333;
+	visibility: hidden;
+	opacity: 0;
+	margin-left: -36px;
+	padding-left: 36px;
+	padding-bottom: 15px;
+	transition: opacity 1s;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.submenu li a{
+	display: block;
+	padding-top: 15px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}

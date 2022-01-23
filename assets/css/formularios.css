@@ -1,0 +1,74 @@
+.conten_form_em{
+  height: 520px;
+}
+.conten_form_hb{
+  height: 420px;
+}
+.conten_form_hp{
+  height: 540px;
+}
+.conten_form_us{
+  height: 660px;
+}
+.form_all{
+  margin: 0 auto;
+  width: 1000px;
+}
+.form_all label{
+  display: block;
+}
+.form_all_input{
+  width: 100%;
+}
+.der{
+  float: left;
+  width: 500px;
+}
+.izq{
+  float: left;
+  width: 500px;
+}
+
+.form_all > div > div{
+  font-size: 26px;
+  font-style: italic;
+  font-weight: 500;
+  color: #333333;
+}
+.form_all > div > div > label{
+  padding: 20px 60px 10px;
+}
+.form_all > div > div > input{
+  padding: 10px 30px;
+  border-radius: 30px;
+  width: 400px;
+  height: 20px;
+  font-size: 16px;
+  outline: inherit;
+  border: 2px solid #333333;
+}
+.form_all > div > div > select{
+  padding: 10px 30px;
+  border-radius: 30px;
+  width: 465px;
+  height: 45px;
+  font-size: 16px;
+  outline: inherit;
+  border: 2px solid #333333;
+  box-sizing: border-box;
+}
+.boton {
+  clear: left;
+  display: block;
+  margin: auto;
+  margin-top: 60px;
+  padding: 10px 30px;
+  border-radius: 30px;
+  border:0;
+  border-color: #fff;
+  width: 400px;
+  color: #ffffff;
+  font-size: 25px;
+  outline: inherit;
+  background: #4B4B4B;
+}

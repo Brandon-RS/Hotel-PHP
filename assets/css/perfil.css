@@ -1,0 +1,61 @@
+.banner_perfil{
+  background: url('../img/Habitacion_banner.png');
+  height: 130px;
+}
+.banner_perfil > h1{
+  padding: 20px;
+  color: #404040;
+  text-align: center;
+  font-size: 60px;
+}
+
+.navegacion_perfil{
+  width: 100%;
+  height: 36px;
+}
+.navegacion_perfil ul{
+  text-align: center;
+  font-size: 18px;
+}
+.navegacion_perfil li {
+  display: inline-block;
+  padding-right: 130px;
+}
+.navegacion_perfil a {
+  text-decoration: none;
+  color: #282C34;
+  display: block;
+  transition: all 150ms ease;
+}
+.navegacion_perfil a:hover{
+  border-bottom: 1px solid #282C34;
+}
+.cuerpo_perfil{
+  width: 600px;
+  margin: auto;
+}
+.cuerpo_mis_reservas{
+  width: 1000px;
+  margin: auto;
+}
+
+.tbl_perfil{
+  width: 100%;
+  margin: auto;
+  margin-top: 50px;
+  border-collapse: collapse;
+  //border: 1px solid #777777;
+}
+.tbl_perfil thead tr{
+  height: 60px;
+  color: #404040;
+  font-size: 25px;
+}
+.tbl_perfil tbody tr{
+  height: 40px;
+  font-size: 20px;
+  border-bottom: 1px solid #777777;
+}
+.h1_td{
+  padding: 20px 0 10px 50px;
+}

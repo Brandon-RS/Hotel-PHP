@@ -1,0 +1,59 @@
+.banner{
+  background: url('../img/Habitacion_banner.png');
+  height: 300px;
+}
+.banner > h1{
+  padding: 80px;
+  color: #404040;
+  text-align: center;
+  font-size: 60px;
+}
+.cuerpo_lg{
+  width: 800px;
+  margin: auto;
+  margin-top: 40px;
+  font-size: 26px;
+  font-style: italic;
+  font-weight: 500;
+  color: #333333;
+}
+.lg_inter label{
+  display: block;
+  padding: 20px 80px 10px;
+}
+.lg_inter input{
+  padding: 10px 0 10px 50px;
+  border-radius: 30px;
+  width: calc(100% - 50px);
+  height: 20px;
+  font-size: 16px;
+  outline: inherit;
+  border: 2px solid #333333;
+}
+.boton_lg {
+  clear: left;
+  margin-top: 60px;
+  margin-left: 204px;
+  padding: 10px;
+  border-radius: 30px;
+  border:0;
+  border-color: #fff;
+  width: 400px;
+  color: #ffffff;
+  font-size: 25px;
+  outline: inherit;
+  background: #4B4B4B;
+  font-weight: 600;
+  letter-spacing: 14px;
+}
+.registrar{
+  margin-top: 20px;
+  text-align: center;
+  font-size: 18px;
+  color: #404040;
+  font-weight: 400;
+}
+.registrar > p > a{
+  font-style: italic;
+  text-decoration: none;
+}

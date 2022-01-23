@@ -1,0 +1,36 @@
+.conten_form_res{
+  height: 200px;
+}
+.conten_form_us_res{
+  height: 320px;
+}
+.mail_input input{
+  padding: 10px 0 10px 50px;
+  border-radius: 30px;
+  width: calc(100% - 90px);
+  height: 20px;
+  font-size: 16px;
+  outline: inherit;
+  border: 2px solid #333333;
+}
+.mail_input label{
+  padding: 20px 60px 10px;
+  font-size: 26px;
+  font-style: italic;
+  font-weight: 500;
+  color: #333333;
+}
+
+
+.form_confirm{
+  width: 500px;
+  margin: 0 calc((100vw / 2) - 200px);
+}
+.form_confirm div{
+  margin-top: 30px;
+  font-size: 20px;
+  color: #333333;
+}
+.flecha_td{
+  padding: 0 20px;
+}

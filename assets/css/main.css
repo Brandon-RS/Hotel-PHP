@@ -1,0 +1,210 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: #fff;
+  width: 100%;
+  color: #000;
+  font-family: Segoe UI;
+}
+
+.cuerpo_td{
+  min-height: calc(100vh - 222px);
+}
+
+header{
+  background-color: #333333;
+}
+.logo{
+  width: 100%;
+  height: 36px;
+  color: #fff;
+}
+.logo p{
+  float: left;
+  margin: 10px 50px 10px 50px;
+  font-size: 18px;
+}
+.logo h1{
+  font-size: 28px;
+}
+.navegacion{
+  width: 100%;
+  height: 36px;
+}
+.navegacion ul{
+  text-align: center;
+  font-size: 18px;
+}
+.navegacion li {
+  display: inline-block;
+  padding-right: 130px;
+}
+.navegacion a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  transition: all 150ms ease;
+}
+.navegacion a:hover{
+  border-bottom: 2px solid #fff;
+}
+
+/*============================================================== Cuerpo ==============================================================*/
+.landspace{
+  margin-top: 30px;
+}
+.landspace img{
+  width: 100%;
+}
+.description{
+  width: 1400px;
+  height: 610px;
+  color: #303030;
+  margin: auto;
+  margin-top: 70px;
+  text-align: justify;
+}
+.description h3{
+  font-size: 60px;
+  font-weight: 500;
+}
+.description h4{
+  font-size: 35px;
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: 50px;
+}
+.column_left{
+  float: left;
+  width: 670px;
+  font-size: 25px;
+}
+.column_right{
+  float: left;
+  width: 670px;
+  margin-left: 60px;
+  font-size: 25px;
+}
+
+.cards{
+  width: 1400px;
+  height: 560px;
+  color: #4E4E4E;
+  margin: auto;
+}
+.cards a{
+  color: #4E4E4E;
+}
+.cards img{
+  width: 100%;
+  height: 100%;
+}
+.card_left {
+  float: left;
+  width: 670px;
+  height: 350px;
+  margin-top: 50px;
+  text-align: center;
+}
+#h5_cst{
+  font-size: 30px;
+  font-weight: 500;
+}
+#h6_cst{
+  font-size: 25px;
+  font-weight: 400;
+}
+#p_cst{
+  font-size: 18px;
+}
+.btnReservaAhora{
+  font-size: 20px;
+  background: #979797;
+  border: 0;
+  width: 250px;
+  height: 50px;
+  letter-spacing: 4px;
+  cursor: pointer;
+}
+.card_riht {
+  float: left;
+  width: 670px;
+  height: 350px;
+  margin-left: 60px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.landspace_botton{
+  width: 100%;
+  height: 400px;
+  margin-top: 40px;
+  background: url("../img/Habitacion Doble.png");
+  color: #4E4E4E;
+  text-align: center;
+}
+.landspace_botton div{
+  background: #fff;
+  width: 530px;
+  height: 245px;
+  margin-top: 25px;
+  margin-left: 120px;
+  position: absolute;
+}
+.landspace_botton p{
+  margin: auto;
+  margin-top: 20px;
+  width: 410px;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: justify;
+}
+.landspace_botton input{
+  width: 410px;
+  height: 45px;
+  font-size: 20px;
+  margin: auto;
+  text-align: center;
+  margin-top: 30px;
+  border-color: #4E4E4E;
+  cursor: pointer;
+}
+
+footer{
+  background: #4B4B4B;
+  color: #000;
+  width: 100%;
+  height: 110px;
+  margin-top: 40px;
+  text-align: center;
+}
+footer h3{
+  font-size: 35px;
+  font-weight: 500;
+}
+footer p{
+  text-align: left;
+  margin-left: 190px;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: -6px;
+}
+footer cite{
+  font-size: 20px;
+  font-weight: 400;
+}
+.redes{
+  text-align: right;
+  margin-top: -90px;
+  margin-right: 50px;
+}
+footer div a{
+  text-decoration: none;
+}
+footer div a img{
+  width: 40px;
+  height: 40px;
+  padding: 30px;
+}

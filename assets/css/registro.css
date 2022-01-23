@@ -1,0 +1,41 @@
+.reg_input > div{
+  float: left;
+}
+.reg_input > div > label{
+  display: block;
+  padding: 20px 80px 10px;
+}
+.reg_input > div > input{
+  padding: 10px 0 10px 50px;
+  border-radius: 30px;
+  width: 336px;
+  height: 20px;
+  font-size: 16px;
+  outline: inherit;
+  border: 2px solid #333333;
+}
+.der_hu{
+  margin-left: 20px;
+}
+.boton_hu {
+  clear: left;
+  margin-top: 30px;
+  margin-left: 204px;
+  padding: 10px;
+  border-radius: 30px;
+  border:0;
+  border-color: #fff;
+  width: 400px;
+  color: #ffffff;
+  font-size: 25px;
+  outline: inherit;
+  background: #4B4B4B;
+  font-weight: 600;
+  letter-spacing: 8px;
+}
+.error_contra{
+  color: #EC0034;
+  margin-left: 40px;
+  font-size: 18px;
+  font-weight: 400;
+}

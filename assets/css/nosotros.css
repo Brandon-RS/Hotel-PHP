@@ -1,0 +1,36 @@
+.cuerpo_ns{
+  clear: left;
+  height: 700px;
+}
+.mision{
+  width: 1060px;
+  margin: 60px 100px 30px 230px;
+  color: #404040;
+  float: left;
+}
+.mision > h3{
+  font-size: 36px;
+  margin: 20px 60px;
+}
+.mision > p{
+  font-size: 18px;
+  text-align: justify;
+}
+.duenno{
+  float: left;
+  text-align: justify;
+  color: #404040;
+  width: 300px;
+  margin-top: -120px;
+}
+.duenno > h4{
+  font-size: 26px;
+  font-weight: 400;
+  margin: 20px;
+  text-align: center;
+}
+.duenno > p{
+  font-size: 16px;
+  text-align: justify;
+  letter-spacing: 1.5px;
+}
